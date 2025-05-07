@@ -12,9 +12,9 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        <li>Vue.js</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>MongoDB</li>
       </ul>
     ),
   },
@@ -23,8 +23,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>World Mission Highschool</li>
       </ul>
     ),
   },
@@ -32,10 +31,14 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
-      </ul>
+      <ul className="list-disc pl-5 text-gray-300">
+      <li>Head Girl – Leading with integrity and purpose</li>
+      <li>F1 in Schools Competitor – Driving innovation on and off the track</li>
+      <li>Second Place – National Hackathon (Team Lead & Coder)</li>
+      <li>Facilitated the ILEAD Youth Leadership Program</li>
+      <li>Created an ML-powered app to help local farmers detect crop diseases</li>
+    </ul>
+    
     ),
   },
 ];
@@ -56,14 +59,15 @@ const AboutSection = () => {
         <Image src="/images/about-image.png" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
-          </p>
+          <p className="text-base lg:text-lg text-gray-300">
+  I'm a full stack web developer on a mission — not just to write code, but to build with purpose. 
+  Whether it's crafting sleek frontends with React or building strong backends with Node.js and PostgreSQL, 
+  I do it all with a joyful heart (and coffee nearby 😄). 
+  I'm driven by curiosity, sharpened by collaboration, and grounded in faith — 
+  because with God as my CEO, no bug is too big and no challenge too complex. 
+  Let's build something meaningful together!
+</p>
+
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}

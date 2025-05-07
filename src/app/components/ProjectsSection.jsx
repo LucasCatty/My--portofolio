@@ -43,7 +43,7 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "React Firebase Template",
+    title: "Vue.js Firebase Template",
     description: "Authentication and CRUD operations",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],

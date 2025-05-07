@@ -30,7 +30,13 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          <div className="flex items-center space-x-3">
+ 
+  <span className="font-semibold text-lg tracking-wide text-white">
+    Lucas Kathy
+  </span>
+</div>
+
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
