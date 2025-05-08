@@ -60,12 +60,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg text-gray-300">
-  I'm a full stack web developer on a mission — not just to write code, but to build with purpose. 
-  Whether it's crafting sleek frontends with React or building strong backends with Node.js and PostgreSQL, 
+  I&#39;m a full stack web developer on a mission — not just to write code, but to build with purpose. 
+  Whether it&#39;s crafting sleek frontends with React or building strong backends with Node.js and PostgreSQL, 
   I do it all with a joyful heart (and coffee nearby 😄). 
-  I'm driven by curiosity, sharpened by collaboration, and grounded in faith — 
+  I&#39;m driven by curiosity, sharpened by collaboration, and grounded in faith — 
   because with God as my CEO, no bug is too big and no challenge too complex. 
-  Let's build something meaningful together!
+  Let&#39;s build something meaningful together!
 </p>
 
           <div className="flex flex-row justify-start mt-8">
